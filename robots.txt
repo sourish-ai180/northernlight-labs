@@ -1,0 +1,7 @@
+
+User-agent: *
+Allow: /
+Sitemap: https://northernlightlabs.engineering/sitemap.xml
+
+User-agent: GPTBot
+Disallow: /
