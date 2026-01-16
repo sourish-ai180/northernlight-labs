@@ -25,7 +25,7 @@ const Footer: React.FC = () => {
             </Link>
 
             <p className="text-slate-400 text-sm leading-relaxed mb-6 max-w-xs font-light">
-              Engineering the future of digital products. We partner with fast-growing startups in the USA, UK, and Germany to build high-stakes software.
+              Thoughtful engineering for early-stage products and growing teams.
             </p>
           </div>
 

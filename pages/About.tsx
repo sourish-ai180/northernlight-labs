@@ -29,28 +29,22 @@ const About: React.FC = () => {
               <div>
                 <h2 className="text-4xl font-bold mb-6 tracking-tight">Our DNA</h2>
                 <p className="text-slate-400 leading-relaxed font-light">
-                  We believe that small, highly-skilled teams outperform large, bureaucratic organizations every single time.
-                  Our approach is rooted in senior-level execution, technical transparency, and a deep understanding of business goals.
+                  We believe small, focused teams build better software by staying close to the problem.
+                  As a studio, we prioritize clear thinking, strong fundamentals, and direct collaboration with founders. Every technical decision we make is guided by simplicity, transparency, and real business outcomes — not process overhead.We prioritize clear thinking, strong fundamentals, and direct collaboration with founders. Every technical decision we make is guided by simplicity, transparency, and real business outcomes — not process overhead.
                 </p>
               </div>
 
-              <div className="grid grid-cols-2 gap-8">
-                <div className="group/stat">
-                  <h4 className="text-3xl font-bold text-green-400 origin-left">8+</h4>
-                  <p className="text-xs text-slate-500 uppercase tracking-widest font-black">Years Avg Experience</p>
-                </div>
-                <div className="group/stat">
-                  <h4 className="text-3xl font-bold text-green-400 origin-left">50+</h4>
-                  <p className="text-xs text-slate-500 uppercase tracking-widest font-black">Products Launched</p>
-                </div>
-                <div className="group/stat">
-                  <h4 className="text-3xl font-bold text-green-400 origin-left">$100M+</h4>
-                  <p className="text-xs text-slate-500 uppercase tracking-widest font-black">Funding Raised</p>
-                </div>
-                <div className="group/stat">
-                  <h4 className="text-3xl font-bold text-green-400 origin-left">0%</h4>
-                  <p className="text-xs text-slate-500 uppercase tracking-widest font-black">Junior Engineers</p>
-                </div>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-12">
+                {[
+                  "Lean by design",
+                  "Founder-first collaboration",
+                  "Engineering-led decisions",
+                  "No junior handoffs"
+                ].map((item, i) => (
+                  <div key={i} className="pl-6 border-l-2 border-green-400/30 hover:border-green-400 transition-colors duration-300">
+                    <h4 className="text-xl md:text-2xl font-bold text-slate-50 tracking-tight">{item}</h4>
+                  </div>
+                ))}
               </div>
 
               <div className="pt-6">
@@ -64,7 +58,7 @@ const About: React.FC = () => {
       <section className="py-40 max-w-7xl mx-auto px-4">
         <div className="text-center mb-20">
           <h2 className="text-4xl md:text-5xl font-bold mb-6 tracking-tight">The Founding Team</h2>
-          <p className="text-slate-400 max-w-xl mx-auto font-light">Combined decades of experience at top-tier tech companies and high-growth startups.</p>
+          <p className="text-slate-400 max-w-xl mx-auto font-light">Built by engineers who think like product owners — not agencies.</p>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12">
           {[

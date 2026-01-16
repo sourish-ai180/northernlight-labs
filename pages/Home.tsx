@@ -93,10 +93,10 @@ const Home: React.FC = () => {
       <section className="relative mt-20">
         <div className="max-w-5xl mx-auto text-center px-4 mb-16">
           <h2 className="text-3xl md:text-5xl font-bold mb-4">
-            Trusted by builders worldwide
+            Trusted by founders and product <br /> teams worldwide
           </h2>
           <p className="text-slate-400 text-lg font-light max-w-2xl mx-auto">
-            Creators, agencies, and fast-moving teams choose Northernlight Labs.
+            Startups, agencies, and fast-moving teams partner with us to ship reliably.
           </p>
         </div>
 
@@ -123,25 +123,29 @@ const Home: React.FC = () => {
         <div className="text-center mb-20">
           <h2 className="text-4xl md:text-6xl font-bold mb-6">Capabilities</h2>
           <p className="text-slate-400 max-w-xl mx-auto text-lg font-light">
-            Full-lifecycle engineering for modern startups.
+            End-to-end product engineering for modern startups.
           </p>
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {SERVICES.map(service => (
-            <div
+            <Link
+              to="/services"
               key={service.id}
-              className="p-10 bg-slate-900/50 border border-slate-800 rounded-[2.5rem] transition-all duration-500 hover:-translate-y-2 hover:border-cyan-400/50"
+              className="group flex flex-col p-10 bg-slate-900 border border-slate-800 rounded-[2.5rem] hover:border-cyan-400/30 hover:shadow-2xl hover:shadow-cyan-900/10 transition-all duration-500 hover:-translate-y-2"
             >
-              <div className="text-5xl mb-8">{service.icon}</div>
-              <h3 className="text-2xl font-bold mb-4">{service.title}</h3>
-              <p className="text-slate-400 mb-8 text-sm font-light leading-relaxed">
+              <div className="w-16 h-16 bg-slate-950 rounded-2xl flex items-center justify-center text-3xl mb-10 group-hover:scale-110 transition-transform duration-500 border border-slate-800 group-hover:border-cyan-400/30">
+                {service.icon}
+              </div>
+              <h3 className="text-2xl font-bold mb-4 text-slate-50 group-hover:text-cyan-400 transition-colors">{service.title}</h3>
+              <p className="text-slate-400 mb-10 text-sm font-light leading-relaxed grow">
                 {service.description}
               </p>
-              <Link to="/services" className="text-cyan-400 font-bold text-sm hover:underline">
-                Explore →
-              </Link>
-            </div>
+              <div className="flex items-center text-cyan-400 font-bold text-sm tracking-wide">
+                Explore
+                <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
+              </div>
+            </Link>
           ))}
         </div>
       </section>

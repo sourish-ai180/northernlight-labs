@@ -1,7 +1,0 @@
-{
-  "name": "Northernlight Labs final",
-  "description": "A premium product engineering partner for startups, focused on building scalable software with clarity and speed.",
-  "requestFramePermissions": [
-    "microphone"
-  ]
-}
