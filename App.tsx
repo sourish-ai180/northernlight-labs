@@ -9,7 +9,7 @@ import Services from './pages/Services';
 import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
 import { PrivacyPolicy, TermsOfService } from './pages/Legal';
-import AIConsultant from './components/AIConsultant';
+
 
 const ScrollToTop = () => {
   const { pathname } = useLocation();
@@ -37,7 +37,7 @@ const App: React.FC = () => {
           </Routes>
         </main>
         <Footer />
-        <AIConsultant />
+
       </div>
     </HashRouter>
   );
