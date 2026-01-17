@@ -93,7 +93,7 @@ const Contact: React.FC = () => {
                   <div className="flex items-center space-x-6 group">
                     <div className="w-14 h-14 bg-slate-900 border border-slate-800 rounded-2xl flex items-center justify-center text-slate-400 group-hover:text-green-400 transition-colors">📍</div>
                     <div>
-                      <div className="text-[10px] font-black text-slate-600 uppercase tracking-widest mb-1">HQ</div>
+                      <div className="text-[10px] font-black text-slate-600 uppercase tracking-widest mb-1">WORKING MODE</div>
                       <div className="text-slate-200 font-bold tracking-tight">Global collaboration • Remote-first</div>
                     </div>
                   </div>

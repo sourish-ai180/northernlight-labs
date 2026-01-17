@@ -12,7 +12,7 @@ const Portfolio: React.FC = () => {
         description="High-stakes software built for high-growth startups. Explore our engineering case studies in fintech, healthtech, and more."
       />
       <section className="pt-24 pb-32 max-w-7xl mx-auto px-4 text-center">
-        <h1 className="text-6xl md:text-8xl font-bold mb-10 text-slate-50 tracking-tighter">Proof of <span className="text-green-400">Concept.</span></h1>
+        <h1 className="text-6xl md:text-8xl font-bold mb-10 text-slate-50 tracking-tighter">Proven in <span className="text-green-400"> Production.</span></h1>
         <p className="text-xl md:text-2xl text-slate-400 leading-relaxed max-w-3xl mx-auto font-light">
           We build high-stakes software for startups that need to get it right the first time.
           From stealth MVPs to Series B scaling engines.

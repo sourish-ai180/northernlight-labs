@@ -13,9 +13,9 @@ const Services: React.FC = () => {
       />
       <section className="pt-24 pb-32 bg-slate-900/40">
         <div className="max-w-7xl mx-auto px-4 text-center">
-          <h1 className="text-6xl md:text-8xl font-bold mb-10 text-slate-50 tracking-tighter">Domain <span className="text-green-400">Expertise.</span></h1>
+          <h1 className="text-6xl md:text-8xl font-bold mb-10 text-slate-50 tracking-tighter">Deep Domain <span className="text-green-400">Expertise.</span></h1>
           <p className="text-xl md:text-2xl text-slate-400 leading-relaxed max-w-3xl mx-auto font-light">
-            Specialized engineering squads for the world's most ambitious product teams. High-stakes software, delivered with precision by Northernlight Labs.
+            Specialized engineering teams for ambitious product companies. We deliver high-stakes software with precision, speed, and accountability.
           </p>
         </div>
       </section>

@@ -48,7 +48,7 @@ const About: React.FC = () => {
               </div>
 
               <div className="pt-6">
-                <Button to="/contact">Join the partner program</Button>
+                <Button to="/contact">Start a conversation</Button>
               </div>
             </div>
           </div>

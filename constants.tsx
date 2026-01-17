@@ -12,28 +12,28 @@ export const SERVICES: Service[] = [
   {
     id: 'product-strategy',
     title: 'Product Strategy',
-    description: 'We turn vague ideas into rigorous product roadmaps backed by user research and market analysis.',
+    description: 'We turn early ideas into clear roadmaps backed by research, validation, and technical feasibility.',
     icon: '🎯',
     features: ['Market Gap Analysis', 'MVP Scoping', 'Technical Feasibility', 'User Persona Development']
   },
   {
     id: 'full-stack-eng',
     title: 'Full-Stack Engineering',
-    description: 'High-performance web and mobile applications built with scalable, modern architectures.',
+    description: 'Scalable, production-ready web and mobile systems built to grow with your business.',
     icon: '💻',
     features: ['React & Next.js', 'Node.js & Go Backend', 'Cloud Native (AWS/GCP)', 'Real-time Systems']
   },
   {
     id: 'ai-integration',
     title: 'AI & Data Intelligence',
-    description: 'Practical AI implementation to automate workflows and enhance product capabilities.',
+    description: 'Practical AI solutions that automate workflows and unlock real product leverage.',
     icon: '🤖',
     features: ['LLM Integration', 'Custom RAG Pipelines', 'Computer Vision', 'Predictive Analytics']
   },
   {
     id: 'ui-ux-design',
     title: 'UI/UX Design',
-    description: 'User-centric designs that prioritize clarity, ease of use, and high conversion rates.',
+    description: 'Practical AI solutions that automate workflows and unlock real product leverage.',
     icon: '🎨',
     features: ['Interactive Prototyping', 'Design Systems', 'Usability Testing', 'Brand Identity']
   }
